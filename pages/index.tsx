@@ -38,7 +38,7 @@ export default function Home() {
     <main className={`min-h-screen ${inter.className}`}>
       <div className="pt-6 px-24">
         <AuthenticatedTemplate>
-          <h6>You're logged in!</h6>
+          <h6>You&apos;re logged in!</h6>
           {accountDetails && <center>Name: {accountDetails?.name}</center>}
           <button onClick={() => handleLogout()}>Logout</button>
         </AuthenticatedTemplate>
